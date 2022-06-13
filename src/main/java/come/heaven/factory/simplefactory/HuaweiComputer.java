@@ -1,4 +1,4 @@
-package come.heaven.factory.simpleFactory;
+package come.heaven.factory.simplefactory;
 
 /**
  * @author zhanggq
