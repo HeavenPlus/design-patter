@@ -6,9 +6,9 @@ package come.heaven.proxy.staticproxy;
  */
 public class ProxyUser implements IUserService {
 
-    private User target;
+    private IUserService target;
 
-    public ProxyUser(User target){
+    public ProxyUser(IUserService target){
         this.target = target;
     }
 

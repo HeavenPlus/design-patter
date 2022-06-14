@@ -8,7 +8,7 @@ package come.heaven.proxy.staticproxy;
 public class Main {
 
     public static void main(String[] args) {
-        User user = new User();
+        IUserService user = new User();
         ProxyUser proxyUser = new ProxyUser(user);
         proxyUser.login();
     }
