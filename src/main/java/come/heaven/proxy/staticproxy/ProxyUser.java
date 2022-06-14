@@ -4,7 +4,7 @@ package come.heaven.proxy.staticproxy;
  * @author zhanggq
  * @date 2022/6/14 10:28
  */
-public class ProxyUser implements Login{
+public class ProxyUser implements IUserService {
 
     private User target;
 
